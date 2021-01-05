@@ -1,3 +1,3 @@
 # vim-quark
 
-Syntaxic coloration and autocomplete for Quark.
+Syntaxic coloration and snippets plugin for Quark.

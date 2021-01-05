@@ -2,7 +2,7 @@ if exists("b:current_syntax")
   finish
 endif
 
-echom "Loaded syntax"
+echom "Loading quark syntax ..."
 
 " keywords
 syntax keyword quark_keyword let import while
@@ -15,7 +15,7 @@ syntax keyword quark_keyword if fn return
   " list
   syntax keyword quark_function foreach push
   " misc
-  syntax keyword quark_keyword length
+  syntax keyword quark_function length
   " fs
   syntax keyword quark_function fs:read fs:cwd fs:join fs:dir
   " typescript written functions
@@ -58,4 +58,5 @@ highlight link quark_operator Operator
 highlight link quark_string String
 highlight link quark_constant Constant
 
+echom "Successfully loaded quark syntax"
 let b:current_syntax = "quark"
