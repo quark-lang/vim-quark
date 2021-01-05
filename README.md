@@ -6,6 +6,8 @@ Syntaxic coloration and snippets plugin for [Quark](https://github.com/quark-lan
 
 ### [Vlugger](https://github.com/Wafelack/vlugger)
 
+- Install [pathogen](https://github.com/tpope/pathogen) if you haven't already
+
 - Add those lines to your `.vimrc` if this is not already done:
 ```vimscript
 execute pathogen#infect()
