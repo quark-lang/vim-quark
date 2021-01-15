@@ -39,6 +39,10 @@ filetype plugin indent on
  
 ## Usage
 
+### Code completion
+
+- Completion dictionnary is loaded from a file (default: `$HOME/.vim/bundle/vim-quark/quark-dict`), you can change this file by running `let g:quark_complete = "your/custom/path"`
+
 ### Syntax highlighting
 
 - Syntax highlighting is automatic when you open a `.qrk` file
@@ -46,6 +50,7 @@ filetype plugin indent on
 ### Running code
 
 - Use `:QuarkRun` to run the file you have in the current buffer
+*NOTE: You can change the quark executable by doing `let g:quark_command = "your_custom_command"`
 
 ### Snippets
 
